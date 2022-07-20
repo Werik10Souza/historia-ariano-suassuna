@@ -14,6 +14,7 @@
     --cor4:#FFDF16;
     --cor5:#807532;
     --cor6:#807A58;
+    --cor7:#2b62f8dc;
 
     --fonte-padrao: Arial, Times, Courier, Sans-serif;
     --fonte-AppleGaramond-Bold: 'AppleGaramond', 'Cursive';
@@ -133,8 +134,7 @@ main h5 {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor4);
-    background-color: var(--cor3);
+    color: var(--cor7);
     padding: 2px 6px;
 }
 
@@ -151,6 +151,31 @@ main img.pequeno {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+
+abbr {
+    color: var(--cor2);
+}
+
+strong {
+    color: var(--cor7);
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
 }
 
 footer {
