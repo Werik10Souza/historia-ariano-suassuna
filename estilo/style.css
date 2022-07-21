@@ -24,7 +24,7 @@
     padding: 0px;
 }
 
-html,body {
+body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
@@ -74,6 +74,25 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor3);
-    color: var(--cor0);
+    color: var(--cor3);
     padding: 10px;
+}
+
+h1, h2, h3 {
+    color: var(--cor2);
+}
+
+strong {
+    color: var(--cor4);
+} 
+
+footer a {
+    color: var(--cor2);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--cor1);
+    text-decoration: underline;
 }
