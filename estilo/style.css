@@ -14,6 +14,7 @@
     --cor4:#FFDF16;
     --cor5:#807532;
     --cor6:#807A58;
+    --cor7:#0b97b7;
 
     --fonte-padrao: Arial, Times, Courier, Sans-serif;
     --fonte-AppleGaramond-Bold: 'AppleGaramond', 'Cursive';
@@ -78,13 +79,97 @@ nav > a:hover {
     padding: 10px;
 }
 
-h1, h2, h3 {
-    color: var(--cor2);
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--cor0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
-strong {
+main h1 {
+    color: var(--cor2);
+    font-family: var(--fonte-AppleGaramond-Bold);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2 {
+    font-family: var(--fonte-AppleGaramond-Bold);
+    color: var(--cor2);
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+main h3 {
+    font-family: var(--fonte-AppleGaramond-Bold);
+    color: var(--cor2);
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong  {
+    color: var(--cor7);
+    font-weight: bolder;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor7);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
     color: var(--cor4);
-} 
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequeno {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: var(--cor3);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: var(--cor3);
+    color: var(--cor1);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
 
 footer a {
     color: var(--cor2);
